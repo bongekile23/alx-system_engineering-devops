@@ -1,2 +1,2 @@
 #!/bin/bashh
-find ./* -type d -print | wc -l
+find . -mindepth l-type d | wc -l
