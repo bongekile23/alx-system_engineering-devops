@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -type d -ptint | wc -l
+find ./* -type  -print | wc -l
