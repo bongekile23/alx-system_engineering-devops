@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#SSH client configaration
+
+Host*
+SendEnv LANG LC_*
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
